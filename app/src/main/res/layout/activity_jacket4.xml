@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6969CF"
+    tools:context=".JacketActivity4"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/skirt_image_view"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/jacket4" />
+
+    <TextView
+        android:id="@+id/skirt_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="White Jacket"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/skirt_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Rs.1400"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="sans-serif"
+        android:text="Fabric: Satin -\n Sizes:
+        -\n24 (Waist Size: 26 in, Length Size: 39 in)
+        -\n26 (Waist Size: 28 in, Length Size: 39 in)
+        -\n28 (Waist Size: 30 in, Length Size: 39 in)
+        -\n30 (Waist Size: 33 in, Length Size: 39 in)
+        -\n32 (Waist Size: 36 in, Length Size: 39 in)
+        -\nCountry of Origin: India"
+        android:textSize="16sp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/add_to_cart_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#616161"
+        android:fontFamily="sans-serif-medium"
+        android:text="Add to Cart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

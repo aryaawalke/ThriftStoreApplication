@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML implementation of Card Layout -->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/idIVcourse"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/idTVCourse"
+                android:layout_width="149dp"
+                android:layout_height="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/idIVcourse"
+
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="32dp"
+                android:layout_marginStart="-148dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/idIVcourse"
+
+                android:text="Name"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idTVCourse1"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/idIVcourse"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginBottom="7dp"
+                android:layout_marginStart="-123dp"
+                android:layout_toEndOf="@+id/idTVCourse"
+                android:text="Price"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
